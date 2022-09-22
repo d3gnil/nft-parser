@@ -1,0 +1,35 @@
+{
+  "name": "nft-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./tg/index.js --ignore './config/'"
+  },
+  "repository": "git+https://github.com/d3gnil/nft-parser.git",
+  "author": "Maxim Dexter <d3gnil@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3gnil/nft-parser/issues"
+  },
+  "homepage": "https://github.com/d3gnil/nft-parser#readme",
+  "dependencies": {
+    "@lifeomic/attempt": "^3.0.3",
+    "api": "^4.5.2",
+    "axios": "^0.27.2",
+    "big-number": "^2.0.0",
+    "bluebird": "^3.7.2",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "opensea-js": "^4.0.7",
+    "pm2": "^5.2.0",
+    "sqlite3": "^5.0.11",
+    "telegraf": "^4.8.6",
+    "telegram-keyboard": "^2.3.2",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
